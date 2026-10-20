@@ -1,0 +1,125 @@
+.aboutme-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f9fafb, #eef2ff);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.aboutme-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.aboutme-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutme-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.aboutme-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  position: relative;
+  color: #1e3a8a;
+}
+
+.aboutme-title span {
+  color: #f59e0b;
+}
+
+.role {
+  font-size: 18px;
+  color: #374151;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.cv-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.cv-button:hover {
+  background: #1e40af;
+}
+
+/* Personal Info */
+.aboutme-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.aboutme-list li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #374151;
+}
+
+.social-links {
+  display: flex;
+  gap: 12px;
+  font-size: 22px;
+}
+
+.social-links a {
+  color: #6b7280;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+  color: #2563eb;
+  transform: scale(1.2);
+}
+
+/* What I Do */
+.what-i-do {
+  display: grid;
+  gap: 15px;
+}
+
+.service-card {
+  background: #f9fafb;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+}
+
+.service-card h5 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.5;
+}

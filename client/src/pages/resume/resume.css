@@ -1,0 +1,101 @@
+/* Base Reset */
+.personal-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.resume-container {
+  max-width: 1080px;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+
+/* Bio Section */
+
+
+/* Main Sections */
+.resume-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Left Container (Experience) */
+.left-container {
+  flex: 2;
+}
+
+
+
+/* Education */
+
+
+/* Right Container (Skills & Personal Info) */
+.right-container {
+  flex: 1;
+}
+
+
+
+.personal-details {
+  background-color: #f0f4f8;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.personal-details h4 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #2c3e50;
+  border-bottom: 2px solid #0077b5;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.personal-details ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.8;
+}
+
+.personal-details li {
+  margin-bottom: 6px;
+}
+
+.personal-details strong {
+  color: #0077b5;
+  font-weight: 600;
+}
+
+.custom-shape-divider-bottom-1747979640 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1747979640 svg {
+    position: relative;
+    display: block;
+    width: calc(115% + 1.3px);
+    height: 208px;
+}
+
+.custom-shape-divider-bottom-1747979640 .shape-fill {
+    fill: #FFFFFF;
+}

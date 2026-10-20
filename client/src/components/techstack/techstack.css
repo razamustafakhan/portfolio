@@ -1,0 +1,77 @@
+.techstack-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f0f9ff, #e0f2fe, #dbeafe);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.techstack-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.techstack-subtitle {
+  font-size: 16px;
+  color: #374151;
+  margin-bottom: 40px;
+}
+
+.techstack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.tech-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.tech-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.12);
+}
+
+.tech-icon {
+  font-size: 40px;
+  color: #2563eb;
+  margin-bottom: 12px;
+}
+
+.tech-name {
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+/* Progress Bar */
+.progress-bar {
+  background: #e5e7eb;
+  border-radius: 8px;
+  height: 8px;
+  width: 100%;
+  overflow: hidden;
+  margin: 8px 0;
+}
+
+.progress-fill {
+  background: linear-gradient(90deg, #3b82f6, #6366f1);
+  height: 100%;
+  border-radius: 8px;
+  transition: width 1s ease-in-out;
+}
+
+.tech-level {
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+}
